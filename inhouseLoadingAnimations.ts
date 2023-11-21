@@ -224,7 +224,7 @@ namespace LoadingAnimations {
             text.right = scene.screenWidth() / 2; text.y = scene.screenHeight() / 2;
             text.setFlag(SpriteFlag.Invisible, true);
             text.image.print("A game by", 0, 0, 1);
-            text.image.print("UnsignedArduino", 0, 10, 1);
+            text.image.print("a343", 0, 10, 1);
 
             const logo: Sprite = this.optimize_sprite(sprites.create(img`
                 fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
