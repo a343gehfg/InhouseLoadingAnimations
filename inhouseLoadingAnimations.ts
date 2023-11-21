@@ -227,26 +227,32 @@ namespace LoadingAnimations {
             text.image.print("a343", 0, 10, 1);
 
             const logo: Sprite = this.optimize_sprite(sprites.create(img`
-                fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-                fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-                fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-                fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-                fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff555fff555fffff
-                fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff555fff555fffff
-                fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff555fff555fffff
-                fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff555fff555fffff
-                fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff555fff555fffff
-                fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff555fff555fffff
-                fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff555fff555fffff
-                fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff555fff555fffff
-                fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff555fff555fffff
-                ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff555555fff555555ff
-                ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff555555fff555555ff
-                ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff555555fff555555ff
-                fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-                fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-                fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-                fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+                                                                     .......99999999999.......
+                                                                     ......9.....6.....9......
+                                                                     ....99......d......99....
+                                                                     ...9........9........9...
+                                                                     ..9.........1.........9..
+                                                                     ..9........d6d........9..
+                                                                     .9.........d91.........9.
+                                                                     9.........d6d9d.........9
+                                                                     9.........6d619.........9
+                                                                     9.........6d616.........9
+                                                                     9.........6d919.........9
+                                                                     9.....5..6dd21d9..5.....9
+                                                                     9.....6..6662996..9.....9
+                                                                     9.....6..6bd61d9..9.....9
+                                                                     9.....b.66d699199.1.....9
+                                                                     9.....b68d66699199d.....9
+                                                                     9.....b66d6d9d6d691.....9
+                                                                     9.....8db6865999119.....9
+                                                                     .9...8d86..544..6919...9.
+                                                                     ..9..88....545....99..9..
+                                                                     ..9..5......5......5..9..
+                                                                     ...9.......5.........9...
+                                                                     ....99.......5.....99....
+                                                                     ......9...........9......
+                                                                     .......99999999999.......
+                                                                     
             `, SpriteKind.InhouseLoadingAnimation));
             logo.right = scene.screenWidth() / 2 + (17 / 2); logo.top = scene.screenHeight();
 
@@ -260,27 +266,33 @@ namespace LoadingAnimations {
             logo.vx = -150; text.vx = 200;
             while (logo.right > text.left) { pause(0); }
             const lastLogoRight: number = logo.right;
-            logo.setImage(img`
-                fffffffffffffffffff
-                fffffffffffffffffff
-                fffffffffffffffffff
-                fffffffffffffffffff
-                fffff555fff555fffff
-                fffff555fff555fffff
-                fffff555fff555fffff
-                fffff555fff555fffff
-                fffff555fff555fffff
-                fffff555fff555fffff
-                fffff555fff555fffff
-                fffff555fff555fffff
-                fffff555fff555fffff
-                ff555555fff555555ff
-                ff555555fff555555ff
-                ff555555fff555555ff
-                fffffffffffffffffff
-                fffffffffffffffffff
-                fffffffffffffffffff
-                fffffffffffffffffff
+            logo.setImage(`
+                                                                     .......99999999999.......
+                                                                     ......9.....6.....9......
+                                                                     ....99......d......99....
+                                                                     ...9........9........9...
+                                                                     ..9.........1.........9..
+                                                                     ..9........d6d........9..
+                                                                     .9.........d91.........9.
+                                                                     9.........d6d9d.........9
+                                                                     9.........6d619.........9
+                                                                     9.........6d616.........9
+                                                                     9.........6d919.........9
+                                                                     9.....5..6dd21d9..5.....9
+                                                                     9.....6..6662996..9.....9
+                                                                     9.....6..6bd61d9..9.....9
+                                                                     9.....b.66d699199.1.....9
+                                                                     9.....b68d66699199d.....9
+                                                                     9.....b66d6d9d6d691.....9
+                                                                     9.....8db6865999119.....9
+                                                                     .9...8d86..544..6919...9.
+                                                                     ..9..88....545....99..9..
+                                                                     ..9..5......5......5..9..
+                                                                     ...9.......5.........9...
+                                                                     ....99.......5.....99....
+                                                                     ......9...........9......
+                                                                     .......99999999999.......
+                                                                     
             `);
             logo.right = lastLogoRight - 2;
             text.right = scene.screenWidth() - logo.left;
