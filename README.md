@@ -1,7 +1,7 @@
  
 
 
-> Open this page at [https://unsignedarduino.github.io/inhouseloadinganimations/](https://unsignedarduino.github.io/inhouseloadinganimations/)
+> Open this page at [https://a343gehfg.github.io/inhouseloadinganimations/](https://a343gehfg.github.io/inhouseloadinganimations/)
 
 ## Use as Extension
 
@@ -10,7 +10,7 @@ This repository can be added as an **extension** in MakeCode.
 * open [https://arcade.makecode.com/](https://arcade.makecode.com/)
 * click on **New Project**
 * click on **Extensions** under the gearwheel menu
-* search for **https://github.com/unsignedarduino/inhouseloadinganimations** and import
+* search for **https://github.com/a343gehfg/inhouseloadinganimations** and import
 
 ## Edit this project ![Build status badge](https://github.com/unsignedarduino/inhouseloadinganimations/workflows/MakeCode/badge.svg)
 
@@ -18,7 +18,7 @@ To edit this repository in MakeCode.
 
 * open [https://arcade.makecode.com/](https://arcade.makecode.com/)
 * click on **Import** then click on **Import URL**
-* paste **https://github.com/unsignedarduino/inhouseloadinganimations** and click import
+* paste **https://github.com/a343gehfg/inhouseloadinganimations** and click import
 
 ## Blocks preview
 
